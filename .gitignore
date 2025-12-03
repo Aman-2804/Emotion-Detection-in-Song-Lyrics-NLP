@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+emo_env/
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Model files (too large for GitHub)
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.bin
+!models/.gitkeep
+
+# Output files (generated)
+outputs/*.png
+outputs/*.jpg
+outputs/*.txt
+outputs/*.csv
+!outputs/.gitkeep
+
+# Data files (can be large - uncomment if you want to exclude)
+# data/*.csv
+# data/raw/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
