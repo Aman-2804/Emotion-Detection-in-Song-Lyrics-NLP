@@ -1,7 +1,4 @@
 # Emotion Detection in Song Lyrics
-By Aman Sharma
-301567149
-
 
 ## Abstract
 
