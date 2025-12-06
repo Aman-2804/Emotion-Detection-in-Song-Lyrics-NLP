@@ -154,6 +154,30 @@ python main.py --eval_llm_zero --eval_llm_few
 python evaluate.py --compare_all
 ```
 
+### 4.5 HuggingFace Token (For LLM Evaluation)
+
+To run LLM evaluation with Qwen2, you need a HuggingFace API token:
+
+1. Create an account at [huggingface.co](https://huggingface.co)
+2. Go to **Settings** → **Access Tokens** → **New Token**
+3. Create a token with "Read" permissions
+4. Set it as an environment variable:
+
+```bash
+# Windows
+set HF_TOKEN=your_token_here
+
+# Mac/Linux
+export HF_TOKEN=your_token_here
+```
+
+Then run the LLM evaluation:
+```bash
+python main.py --eval_llm_zero --eval_llm_few
+```
+
+**Note:** The saved predictions in `outputs/` were generated with our token, so you can skip this step if you just want to verify the evaluation metrics.
+
 ---
 
 ## 5. Experimental Setup
