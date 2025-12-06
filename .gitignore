@@ -23,22 +23,16 @@ ENV/
 *~
 .DS_Store
 
-# Jupyter Notebooks
-.ipynb_checkpoints/
-*.ipynb
 
 # Model files (too large for GitHub)
-models/*.pt
-models/*.pth
-models/*.ckpt
-models/*.bin
-!models/.gitkeep
+#models/*.pt
+#models/*.pth
+#models/*.ckpt
+#models/*.bin
+#!models/.gitkeep
 
 # Output files (generated)
-outputs/*.png
 outputs/*.jpg
-outputs/*.txt
-outputs/*.csv
 !outputs/.gitkeep
 
 # Data files (can be large - uncomment if you want to exclude)
@@ -66,4 +60,10 @@ huggingface/
 *.tmp
 *.bak
 *.swp
+
+# Zip files
+*.zip
+
+# Notebook
+project.ipynb
 

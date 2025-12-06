@@ -1,0 +1,14 @@
+============================================================
+EMOTION DETECTION - EVALUATION REPORT
+============================================================
+
+Model Comparison (Macro F1 Score):
+----------------------------------------
+Fine-tuned BERT      0.6396 █████████████████████████
+Qwen2-0.5B Few-shot  0.1118 ████
+Qwen2-0.5B Zero-shot 0.0532 ██
+
+----------------------------------------
+Key Finding: Fine-tuned BERT significantly outperforms
+LLMs with zero-shot and few-shot prompting on this task.
+============================================================
