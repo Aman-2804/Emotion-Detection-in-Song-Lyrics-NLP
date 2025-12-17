@@ -123,7 +123,7 @@ project/
 | `sklearn` | Metrics | scikit-learn |
 
 
-### 4.3 Verification Instructions (For TA)
+### 4.3 Verification Instructions
 
 ```bash
 pip install -r requirements.txt
