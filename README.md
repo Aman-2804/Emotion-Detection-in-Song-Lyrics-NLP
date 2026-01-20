@@ -99,19 +99,21 @@ Pretrained BERT without fine-tuning to establish a lower bound.
 
 ```
 project/
-â”œâ”€â”€ main.py                 # Training and evaluation
-â”œâ”€â”€ evaluate.py             # TA verification script
-â”œâ”€â”€ emotion_detection.py    # Model code
-â”œâ”€â”€ project.ipynb           # This report
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ data/                   # Train/val/test CSVs
-â”œâ”€â”€ models/bert_best.pt     # Saved weights
-â””â”€â”€ outputs/
-    â”œâ”€â”€ bert_predictions.csv
-    â”œâ”€â”€ llm_zero_shot_predictions.csv
-    â”œâ”€â”€ llm_few_shot_predictions.csv
-    â”œâ”€â”€ evaluation_report.txt
-    â””â”€â”€ attention_*.png
+├── main.py                  # Training and evaluation
+├── evaluate.py              # TA verification script
+├── emotion_detection.py     # Model code
+├── project.ipynb            # This report
+├── requirements.txt
+├── data/                    # Train/val/test CSVs
+├── models/
+│   └── bert_best.pt         # Saved weights
+└── outputs/
+    ├── bert_predictions.csv
+    ├── llm_zero_shot_predictions.csv
+    ├── llm_few_shot_predictions.csv
+    ├── evaluation_report.txt
+    └── attention_*.png
+
 ```
 
 ### 4.2 External Code Used
